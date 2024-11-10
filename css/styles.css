@@ -1,0 +1,287 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(55, 61, 67);
+}
+
+img {
+  border: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #064a5e;
+  padding: 10px;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.6; /* Define la altura de línea */
+  color: #333; /* Color del texto */
+}
+
+footer {
+  background-color: #2d323b;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  margin: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.index {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+button, header nav button {
+  border: 2px solid #1d6580;
+  background-color: rgb(14, 14, 36);
+  color: #fff;
+  padding: 10px;
+  font-family: "Quicksand", sans-serif;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+header {
+  background-color: #2d323b; /* Color de fondo del navbar */
+  text-align: center; /* Centra los elementos horizontalmente */
+}
+
+header nav {
+  display: flex; /* Usa Flexbox para un diseño responsive */
+  justify-content: space-around; /* Distribuye los elementos uniformemente */
+  align-items: center; /* Alinea elementos verticalmente */
+}
+
+header nav img {
+  max-width: 200px; /* tamaño del logo, ancho */
+  cursor: pointer; /* Cambia el cursor a mano al pasar sobre la imagen */
+}
+
+header nav a {
+  text-decoration: none;
+  color: #ffffff; /* Color de los items del menu */
+  padding: 10px; /* Espacio alrededor de cada enlace */
+  margin: 0 10px; /* Espacio entre los enlaces */
+  border-radius: 20px;
+}
+
+header nav a:hover {
+  background-color: #65dada; /* Color del hover de los links*/
+  color: #000000;
+}
+
+header nav button {
+  /* Utiliza el estilo de botón ya definido */
+}
+
+/* Estilo de la sección BIENVENIDA */
+.section-welcome {
+  padding: 0; /* Relleno */
+  text-align: center; /* Centra el texto */
+  color: rgb(31, 0, 143); /* color del titulo */
+  background-color: #d2e9ff; /* Color de fondo */
+}
+
+.welcome-text {
+  color: #7a7a7a; /* color del texto */
+}
+
+/* Estilo de la sección SERVICIOS MEDICOS */
+.section-services {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+}
+
+.services-grid {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define las columnas */
+  gap: 5rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+.services-item img {
+  width: 40%; /* Ancho de la imagen */
+  height: auto; /* Altura automática */
+  /*border-radius: 5px;  Bordes redondeados */
+}
+
+/* Estilo de la sección TESTIMONIOS */
+.testimony-section {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+  background-color: #d2e9ff; /* Color de fondo */
+}
+
+.testimony-grid {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define las columnas */
+  gap: 5rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+/* Estilo de la sección Equipo Médico */
+.section-team {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+}
+
+.team-grid {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define las columnas */
+  gap: 5rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+.team-item img {
+  width: 40%; /* Ancho de la imagen */
+  height: auto; /* Altura automática */
+  /*border-radius: 5px;  Bordes redondeados */
+}
+
+/* Estilo de la sección Contacto */
+.contact-section {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilo del formulario de Contacto */
+.contact-form {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: 1fr; /* Define las columnas */
+  gap: 2rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+/* Estilo de los campos del formulario */
+.contact-form input, .contact-form textarea {
+  width: 100%; /* Ancho */
+  padding: 1rem; /* Relleno */
+  border: none; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilo del mapa de ubicación */
+.contact-map {
+  width: 100%; /* Ancho */
+  height: 300px; /* Altura */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-top: 2rem; /* Margen superior */
+}
+
+.section-welcome {
+  padding: 0; /* Relleno */
+  text-align: center; /* Centra el texto */
+  color: rgb(31, 0, 143); /* color del titulo */
+  background-color: #d2e9ff; /* Color de fondo */
+}
+
+.welcome-text {
+  color: #7a7a7a; /* color del texto */
+}
+
+.section-services {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+}
+
+.services-grid {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define las columnas */
+  gap: 5rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+.services-item img {
+  width: 40%; /* Ancho de la imagen */
+  height: auto; /* Altura automática */
+}
+
+.testimony-section {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+  background-color: #d2e9ff; /* Color de fondo */
+}
+
+.testimony-grid {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define las columnas */
+  gap: 5rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+.section-team {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+}
+
+.team-grid {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define las columnas */
+  gap: 5rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+.team-item img {
+  width: 40%; /* Ancho de la imagen */
+  height: auto; /* Altura automática */
+}
+
+.contact-section {
+  padding: 1rem; /* Relleno */
+  text-align: center; /* Centra el texto */
+}
+
+.contact-form {
+  display: grid; /* Usa grid para la disposición */
+  grid-template-columns: 1fr; /* Define las columnas */
+  gap: 2rem; /* Espacio entre los elementos */
+  margin-top: 1.5rem; /* Margen superior */
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%; /* Ancho */
+  padding: 1rem; /* Relleno */
+  border: none; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #f0f0f0; /* Color de fondo */
+}
+
+.contact-map {
+  width: 100%; /* Ancho */
+  height: 300px; /* Altura */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-top: 2rem; /* Margen superior */
+}
+
+/*# sourceMappingURL=styles.css.map */
